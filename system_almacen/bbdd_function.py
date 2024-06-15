@@ -7,10 +7,10 @@ import pymysql
 
 # Función para conectar a la base de datos
 def conectar():
-    host = 'localhost'
-    usuario = 'nicolas'
-    contrasena = 'naiki2353'
-    base_datos = 'productos'
+    host = 'localhost' 
+    usuario = 'usuario'
+    contrasena = 'contraseña'
+    base_datos = 'productosDeAlmacen'
 
     try:
         conexion = pymysql.connect(
