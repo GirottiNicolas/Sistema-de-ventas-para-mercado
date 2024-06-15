@@ -10,7 +10,7 @@ def conectar():
     host = 'localhost' 
     usuario = 'usuario'
     contrasena = 'contraseña'
-    base_datos = 'productosDeAlmacen'
+    base_datos = 'productos'
 
     try:
         conexion = pymysql.connect(
